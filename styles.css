@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body {
+  height: 100dvh;
+  width: 100dvw;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.card {
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code {
+  width: 90%;
+  border-radius: 15px;
+  margin: .8rem auto .5rem auto;
+}
+
+.title {
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.title {
+  width: 85%;
+  font-size: 1.5rem;
+}
+
+.title,
+.description {
+  margin: 1rem auto;
+  text-wrap: balance;
+}
+
+.description {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  width: 77%;
+}
+
+@media (min-width: 512px) {
+  .card {
+    height: 68%;
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 50%;
+        height: 51%;
+    }
+}
+
+@media (min-width: 912px) {
+    .card {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 25%;
+        height: 59%;
+    }
+}
