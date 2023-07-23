@@ -19,13 +19,13 @@ body {
 }
 
 footer {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 .card {
@@ -39,19 +39,16 @@ footer {
 .qr-code {
   width: 90%;
   border-radius: 15px;
-  margin: .8rem auto .5rem auto;
-}
-
-.title {
-  font-weight: bold;
-  color: hsl(218, 44%, 22%);
-  word-wrap: break-word;
-  text-align: center;
+  margin: 0.8rem auto 0.5rem auto;
 }
 
 .title {
   width: 85%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .title,
@@ -71,26 +68,25 @@ footer {
     height: 68%;
     width: 50%;
   }
-
 }
 
 @media (min-width: 768px) {
-    .card {
-        width: 50%;
-        height: 51%;
-    }
+  .card {
+    width: 50%;
+    height: 51%;
+  }
 }
 
 @media (min-width: 912px) {
-    .card {
-        width: 40%;
-        height: 40%;
-    }
+  .card {
+    width: 40%;
+    height: 40%;
+  }
 }
 
 @media (min-width: 1200px) {
-    .card {
-        width: 23%;
-        height: 62%;
-    }
+  .card {
+    width: 23%;
+    height: 62%;
+  }
 }
